@@ -1,0 +1,19 @@
+:root {
+  --primary-blue: #0A1F3D;
+  --accent-blue: #1A3D6B;
+  --highlight: #2A5B9B;
+  --pure-white: #FFFFFF;
+  --text-black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--primary-blue);
+  color: var(--pure-white);
+}
